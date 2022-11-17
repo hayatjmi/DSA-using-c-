@@ -6,11 +6,11 @@ int main()
 int a , b;
 cout<<"Enter two numbers"<<endl;
 cin>>a>>b;
-cout<<add(a,b)<<endl;
+cout<<"Sum is : "<<add(a,b)<<endl;
 int c;
 cout<<"Enter three numbers"<<endl;
 cin>>a>>b>>c;
-cout<<add(a,b,c);
+cout<<"sum is : "<<add(a,b,c);
 return 0;
 }
 int add(int x,int y,int z)
